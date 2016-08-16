@@ -1,2 +1,3 @@
 name: Koenraad Van Doorslaer, PhD
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
