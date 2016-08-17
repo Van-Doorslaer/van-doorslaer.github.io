@@ -1,0 +1,5 @@
+name: Koenraad Van Doorslaer, PhD
+markdown: kramdown
+group: "navigation"
+paginate: 5
+permalink: /blog/:year/:month/:day/:title
