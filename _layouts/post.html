@@ -2,10 +2,27 @@
 layout: default
 ---
 
-
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-  {{ content }}
+<body>
+<div id="wrap">
+  <div id="masthead">
+    <h1>Koenraad Van Doorslaer, PhD</h1>
+  </div>
+  <div id="menucontainer">
+	{% include blog_nav.html %}
+  </div>
+	{% include sidebar.html %}
+    <div id="content">
+      <h3>The Jagger Principle</h3>
+      <p class="meta">{{ page.date | date_to_string }}</p>
+      
+      <div class="post">
+        {{ content }}
+      </div>
+    </div>
 </div>
+
+
+
+
+
+
