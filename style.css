@@ -83,7 +83,7 @@ float : left;
 } 
 #menunav ul li a:hover { 
 color : #fff;
-background : transparent url(images/menu_bg-OVER.gif) repeat-x bottom left;
+background : transparent url(/images/menu_bg-OVER.gif) repeat-x bottom left;
 } 
 #menunav ul li a:hover span { 
 display : block;
@@ -92,14 +92,14 @@ cursor : pointer;
 } 
 #menunav ul li a.current, #menunav ul li a.current:hover { 
 color : #fff;
-background : #1d6893 url(images/menu_left-ON.gif) no-repeat top left;
+background : #1d6893 url(/images/menu_left-ON.gif) no-repeat top left;
 line-height : 275%;
 } 
 #menunav ul li a.current span { 
 display : block;
 padding : 0 20px 0 0;
 width : auto;
-background : #1d6893 url(images/menu_right-ON.gif) no-repeat top right;
+background : #1d6893 url(/images/menu_right-ON.gif) no-repeat top right;
 height : 33px;
 } 
 			/*TOP NAVIGATION*/
@@ -204,16 +204,15 @@ dd {
 
 name {
 
-    margin-left : 50px;
-    width: 150px;
+    margin-left : 93px;
+    width: 120px;
     padding: 4px;
 }
 
 function {
 
-    margin-left : 200px;
-    width: 150px;
-    padding: 4px;
+    margin-left: 120px;
+    line-height: 120%;
 }
 
 blockquote {
