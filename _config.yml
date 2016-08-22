@@ -1,5 +1,11 @@
 name: Koenraad Van Doorslaer, PhD
 markdown: kramdown
-group: "navigation"
+navigation:
+ - text: Home
+   url: /
+ - text: resume
+   url: /resume
+ - text: blog
+   url: /blog/
 paginate: 5
 permalink: /blog/:year/:month/:day/:title
