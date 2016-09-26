@@ -3,9 +3,11 @@ markdown: kramdown
 navigation:
  - text: Home
    url: /
- - text: resume
-   url: /resume
+ - text: opportunities
+   url: /opportunities
  - text: blog
    url: /blog/
+ - text: my resume
+   url: /resume
 paginate: 5
 permalink: /blog/:year/:month/:day/:title
