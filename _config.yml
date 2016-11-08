@@ -11,5 +11,4 @@ navigation:
    url: /resume
 paginate: 5
 permalink: /blog/:year/:month/:day/:title
-gems:
-  - jekyll-redirect-from
+gem 'jekyll-redirect-from'
