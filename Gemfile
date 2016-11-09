@@ -19,6 +19,5 @@ gem "minima"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-gems:
-  - jekyll-redirect-from
+gem 'jekyll-redirect-from'
 
