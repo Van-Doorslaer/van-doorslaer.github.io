@@ -3,12 +3,19 @@ markdown: kramdown
 navigation:
  - text: Home
    url: /
- - text: opportunities
+ - text: People
+   url: /people
+ - text: Opportunities
    url: /opportunities
- - text: blog
-   url: /blog/
- - text: my resume
+ - text: Projects
+   url: /projects
+ - text: Publications
    url: /resume
+ - text: Media
+   url: /media
+ - text: Blog
+   url: /blog/
+
 paginate: 5
 permalink: /blog/:year/:month/:day/:title
 gem:
