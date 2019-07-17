@@ -13,10 +13,11 @@ navigation:
    url: /resume
  - text: Media
    url: /media
- - text: Blog
-   url: /blog/
+ - text: Animal PV Reference Center
+   url: /Ref
 
 paginate: 5
-permalink: /blog/:year/:month/:day/:title
 gem:
     - jekyll-redirect-from
+    - jekyll-paginate
+
