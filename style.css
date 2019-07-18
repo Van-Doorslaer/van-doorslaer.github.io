@@ -125,7 +125,7 @@ padding : 0 1em 0 1em;
 			/*FOOTER*/
 #footer { 
 clear : both;
-height : 50px;
+height : 20px;
 padding : 0;
 margin-bottom : 0;
 margin-top : 20px;
@@ -140,7 +140,7 @@ h1 {
 float : left;
 margin : 0;
 padding : 20px 0 20px 25px;
-font : 150% "Trebuchet MS", Helvetica, Arial, Tahoma, sans-serif;
+font : 200% "Trebuchet MS", Helvetica, Arial, Tahoma, sans-serif;
 letter-spacing : 5px;
 color : #fff;
 } 

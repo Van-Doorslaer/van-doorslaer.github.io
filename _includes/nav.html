@@ -1,4 +1,5 @@
 <div id="menunav">
+
 {% unless page.layout == 'front' %}
   <ul class="navigation">
     {% for link in site.navigation %}
@@ -6,6 +7,7 @@
       {% if page.url == link.url or page.layout == link.layout %}
         {% assign current = 'current' %}
       {% endif %}
+
       <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
         <a class="{{ current }}" href="{{ link.url }}"><span>{{ link.text }}</span></a>
       </li>

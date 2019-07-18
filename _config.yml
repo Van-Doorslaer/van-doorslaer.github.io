@@ -16,7 +16,7 @@ navigation:
  - text: Animal PV Reference Center
    url: /Ref
 
-paginate: 5
+
 gem:
     - jekyll-redirect-from
     - jekyll-paginate
