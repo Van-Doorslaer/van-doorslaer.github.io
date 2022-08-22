@@ -13,6 +13,8 @@ navigation:
    url: /resume
  - text: Media
    url: /media
+  - text: Transcriptomics
+   url: /media
  - text: Animal PV Reference Center
    url: /Ref
 
