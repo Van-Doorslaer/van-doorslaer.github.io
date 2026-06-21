@@ -307,3 +307,35 @@ td2 {
 .right {
  float: right;
  padding: 0 0 0 10px;}
+
+			/*PUBLICATION YEAR TABS*/
+#year-tabs {
+margin: 0 0 16px 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+gap: 4px;
+}
+#year-tabs button {
+font-family: Arial, "Trebuchet MS", Helvetica, Tahoma, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #143c55;
+background: #eaf3f8;
+border: 1px solid #b9d3e2;
+border-radius: 3px;
+padding: 4px 10px;
+cursor: pointer;
+}
+#year-tabs button:hover {
+background: #d5e8f0;
+}
+#year-tabs button.active {
+background: #1d6893;
+border-color: #1d6893;
+color: #fff;
+}
+.pub-list li.year-hidden {
+display: none;
+}
+
