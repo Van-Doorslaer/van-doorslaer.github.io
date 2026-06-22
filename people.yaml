@@ -51,6 +51,15 @@ current_members:
     bio: |
       Rob is a recent PhD graduate from Thunder Bay, Ontario. In the lab, he seeks to understand the molecular basis for papillomavirus-related cancers using lab-grown 3D epithelial tissues, high-throughput sequencing techniques, and bioinformatics. Outside the lab, he is a sci-fi and space nerd.
 
+  - name: Franzi Kuehner, PhD
+    role: Research Associate
+    photo: Franzi.jpg
+    email: fkuehner@arizona.edu
+    pubmed_url: "https://scholar.google.com/citations?user=2SDxHbMAAAAJ&hl"
+    bio: |
+      Rob is a recent PhD graduate from Thunder Bay, Ontario. In the lab, he seeks to understand the molecular basis for papillomavirus-related cancers using lab-grown 3D epithelial tissues, high-throughput sequencing techniques, and bioinformatics. Outside the lab, he is a sci-fi and space nerd.
+
+
   - name: Kelly King
     role: Graduate Student
     photo: Kelly.jpg
@@ -74,7 +83,7 @@ current_members:
     
   - name: David Kosanke
     role: Research Specialist
-    photo: David.png
+    photo: David2.png
     email: dpk620@arizona.edu
     pubmed_url: ""
     bio: ""
@@ -130,4 +139,4 @@ alumni:
 # ============================================================================
 group_photo: group.jpeg
 group_photo_alt: "lab celebrating the first R01"
-headline: "In the Van Doorslaer Lab, we depend on your whole self <br> to tackle the genomic challenges of HPV cancers."
+headline: "The Van Doorslaer Lab studies the genomic challenges of HPV-driven cancers."
