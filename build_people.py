@@ -54,7 +54,7 @@ def render_photo_cell(person):
         print(f"  WARNING: images/people/{photo} not found on disk — using placeholder for {person['name']}")
 
     if photo and photo_exists_on_disk(photo):
-        return f'<td align="center"><img src="/images/people/{photo}" alt="{name}" width=auto height="200"></td>'
+        return f'<td align="center"><img src="/images/people/{photo}" alt="{name}" style="max-width:100%;height:200px;" width=auto height="200"></td>'
     else:
         # No photo on file - render a simple placeholder cell instead of
         # silently reusing someone else's photo (the old page did this by
@@ -62,7 +62,7 @@ def render_photo_cell(person):
         # broken image icon for a typo'd filename.
         return (
             '<td align="center">'
-            '<div style="width:160px;height:200px;margin:0 auto;background:#eaf3f8;'
+            '<div style="width:100%;max-width:160px;height:200px;margin:0 auto;background:#eaf3f8;'
             'border:1px solid #b9d3e2;display:flex;align-items:center;justify-content:center;'
             'font-family:Arial,sans-serif;color:#143c55;font-size:13px;text-align:center;padding:8px;">'
             f"{name}<br>(photo coming soon)"
@@ -165,11 +165,11 @@ permalink: /people
 
 <h3>{headline}</h3>
 <br>
-<img class="normal" src="/images/people/{group_photo}" style="width:730px" alt="{group_photo_alt}"/>
+<img class="normal" src="/images/people/{group_photo}" style="max-width:730px;width:100%;height:auto;" alt="{group_photo_alt}"/>
 
 <br><br><br>
 
-<table cellspacing="0" cellpadding="10">
+<table cellspacing="0" cellpadding="10" class="people-table">
 {member_rows_html}
 </table>
 
