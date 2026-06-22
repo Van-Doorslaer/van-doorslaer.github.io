@@ -1,0 +1,133 @@
+# ============================================================================
+# PEOPLE.YAML — Van Doorslaer Lab roster
+# ============================================================================
+# This is the ONLY file you need to edit to update the People page.
+# After editing, run:   python3 build_people.py
+# That regenerates people.html automatically. Then commit + push as usual.
+#
+# HOW TO ADD A LAB MEMBER:
+#   1. Copy one of the blocks under "current_members:" below
+#   2. Fill in their details
+#   3. Add their photo to images/people/ (see "photo:" notes below)
+#   4. Run the build script
+#
+# HOW TO MOVE SOMEONE TO ALUMNI:
+#   1. Cut their block out of "current_members:"
+#   2. Add a one-line entry under "alumni:" at the bottom
+#   3. Run the build script
+#
+# FIELD NOTES:
+#   name          - Full name as it should display
+#   role          - Their title/position
+#   photo         - Filename only (must already exist in images/people/),
+#                   or leave blank ("") to show a placeholder instead
+#   email         - Just the address, no "mailto:"
+#   pubmed_url    - Full URL to their PubMed search, or blank if none
+#   bio           - Multi-line is fine (use the | block syntax shown below),
+#                   or leave blank ("") for no bio paragraph
+#   pair_with_pi  - true only for the very first entry (Koenraad), since the
+#                   layout pairs him with the next person in the same row.
+#                   Leave false for everyone else - the script handles pairing
+#                   automatically, two people per row, in the order listed.
+# ============================================================================
+
+current_members:
+
+  - name: Koenraad Van Doorslaer, PhD
+    role: Principal Investigator
+    photo: KVD2.jpg
+    email: vandoorslaer@arizona.edu
+    pubmed_url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=Van-Doorsaler-k+OR+doorslaer-kv+OR+van-doorslaer-k"
+    resume_pdf: resume-online.pdf
+    bio: |
+      Dr. Van Doorslaer received his BS and MS from the University of Leuven, Belgium. He left the land of beer and chocolate to pursue a Ph.D. in the lab of Dr. Robert Burk, at the Albert Einstein College of Medicine in New York. For his post-doctoral work, he joined the lab of Dr. McBride located within the National Institute of Allergy and Infectious Disease at the NIH.
+      Dr. Van Doorslaer recently joined the faculty of the School of Animal and Comparative Biomedical Sciences at the University of Arizona. His current research combines thorough evolutionary analysis with state-of-the-art molecular techniques to understand why certain DNA viruses are oncogenic. His lab is particularly interested in a subset of human oncogenic papillomaviruses.
+
+  - name: Kelly King
+    role: Graduate Student
+    photo: Kelly.jpg
+    email: vandoorslaer@arizona.edu
+    pubmed_url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=King-km+van-doorslaer"
+    bio: ""
+
+  - name: Rob Jackson, PhD
+    role: Research Associate
+    photo: Rob.jpg
+    email: robjackson@arizona.edu
+    pubmed_url: "https://scholar.google.com/citations?user=2SDxHbMAAAAJ&hl"
+    bio: |
+      Rob is a recent PhD graduate from Thunder Bay, Ontario. In the lab, he seeks to understand the molecular basis for papillomavirus-related cancers using lab-grown 3D epithelial tissues, high-throughput sequencing techniques, and bioinformatics. Outside the lab, he is a sci-fi and space nerd.
+
+  - name: Christina Arnoldy
+    role: Graduate Student
+    photo: Christina.png
+    email: christinaarnoldy@arizona.edu
+    pubmed_url: ""
+    bio: ""
+
+  - name: Sukirti Shivpuri
+    role: Graduate Student
+    photo: Sukirti.png
+    email: sukirtishivpuri@arizona.edu
+    pubmed_url: ""
+    bio: ""
+    
+  - name: David Kosanke
+    role: Research Specialist
+    photo: David.png
+    email: dpk620@arizona.edu
+    pubmed_url: ""
+    bio: ""
+    
+  - name: aditya Char 
+    role: Research Specialist
+    photo: Adi.png
+    email: adityachar@arizona.edu
+    pubmed_url: ""
+    bio: ""
+
+# ============================================================================
+# ALUMNI — one line each. Format: "Name, role/degree - optional current position"
+# The (KEYS high school student) and NSURP student links are preserved as
+# special cases below; everyone else is a plain line.
+# ============================================================================
+alumni:
+  - text: "Isabel (Issy) Tobey - Post Doctoral Fellow Leibniz Institute of Virology (LIV)" 
+  - text: "Amy M. Banka"
+  - text: "Esha V. Rajadhyaksha - Medical Student, The University of Arizona"
+  - text: "Reid S. Loeffler - Research Assistant at the University of Arizona - Yoon Biosensors Lab"
+  - text: "Sofia Ragonese - Research Associate, Broad Institute of MIT and Harvard"
+  - text: "Natalie Payne, PhD - Incoming Assistant Professor, University of Ohio"
+  - text: "David Williams, MD, PhD - currently Pathology Intern, Yale University"
+  - text: "Jana Jandova, PhD"
+  - text: "Jayme Jackson (undergraduate researcher) - currently graduate student at Berkley"
+  - text: "Qianying He (Masters student)"
+  - text: "Emma Paulin (undergraduate researcher)"
+  - text: "Kayleigh Berthiaume (undergraduate researcher) - currently MD/PhD student at UofA"
+  - text: "Alyssa Alsvig (undergraduate researcher)"
+  - text: "Josh Pace (undergraduate researcher) - currently PhD student at Northeastern University"
+  - text: "Lauren Herrmann (Masters student) - currently PhD student at UofA"
+  - text: "Melissa Bergeman (undergraduate researcher) - currently Graduate student at ASU"
+  - text: "Caitlyn Flores (undergraduate researcher) - currently undergraduate student at UofA"
+  - text: "Gabrielle Russell (KEYS high school student) - currently undergraduate student at UofA"
+    link_text: "(KEYS high school student)"
+    link_url: "https://bio5.org/impact/engaging-students/keys-research-internship-program"
+  - text: "Michelle M. Kim (KEYS high school student)"
+    link_text: "(KEYS high school student)"
+    link_url: "https://bio5.org/impact/engaging-students/keys-research-internship-program"
+  - text: "Katie Mendiola NSURP student"
+    link_text: "NSURP student"
+    link_url: "NSURP.org"
+  - text: "Yanely I. Bolanos NSURP student"
+    link_text: "NSURP student"
+    link_url: "NSURP.org"
+  - text: "Andres Rodrigues NSURP student"
+    link_text: "NSURP student"
+    link_url: "NSURP.org"
+
+# ============================================================================
+# GROUP PHOTO at the top of the page
+# ============================================================================
+group_photo: group.jpeg
+group_photo_alt: "lab celebrating the first R01"
+headline: "In the Van Doorslaer Lab, we depend on your whole self <br> to tackle the genomic challenges of HPV cancers."
