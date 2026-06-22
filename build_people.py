@@ -149,6 +149,7 @@ def build():
     html = f"""---
 layout: default
 title: The Van Doorslaer lab at the University of Arizona
+permalink: /people
 ---
 
 <body>
