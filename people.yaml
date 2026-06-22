@@ -43,13 +43,6 @@ current_members:
       Dr. Van Doorslaer received his BS and MS from the University of Leuven, Belgium. He left the land of beer and chocolate to pursue a Ph.D. in the lab of Dr. Robert Burk, at the Albert Einstein College of Medicine in New York. For his post-doctoral work, he joined the lab of Dr. McBride located within the National Institute of Allergy and Infectious Disease at the NIH.
       Dr. Van Doorslaer recently joined the faculty of the School of Animal and Comparative Biomedical Sciences at the University of Arizona. His current research combines thorough evolutionary analysis with state-of-the-art molecular techniques to understand why certain DNA viruses are oncogenic. His lab is particularly interested in a subset of human oncogenic papillomaviruses.
 
-  - name: Kelly King
-    role: Graduate Student
-    photo: Kelly.jpg
-    email: vandoorslaer@arizona.edu
-    pubmed_url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=King-km+van-doorslaer"
-    bio: ""
-
   - name: Rob Jackson, PhD
     role: Research Associate
     photo: Rob.jpg
@@ -57,6 +50,13 @@ current_members:
     pubmed_url: "https://scholar.google.com/citations?user=2SDxHbMAAAAJ&hl"
     bio: |
       Rob is a recent PhD graduate from Thunder Bay, Ontario. In the lab, he seeks to understand the molecular basis for papillomavirus-related cancers using lab-grown 3D epithelial tissues, high-throughput sequencing techniques, and bioinformatics. Outside the lab, he is a sci-fi and space nerd.
+
+  - name: Kelly King
+    role: Graduate Student
+    photo: Kelly.jpg
+    email: vandoorslaer@arizona.edu
+    pubmed_url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=King-km+van-doorslaer"
+    bio: ""
 
   - name: Christina Arnoldy
     role: Graduate Student
